@@ -1,0 +1,28 @@
+h1{
+    color:blue;
+    font-weight:bolder;
+    text-align:center
+}
+
+body{
+    background:linear-gradient(to right,pink,yellow,orange);
+}
+
+
+#To-Dos{
+animation-name:sky-to-blue-violet-to-blue;
+animation-duration:4s;
+animation-iteration-count:4;
+}
+
+@keyframes sky-to-blue-violet-to-blue{
+    0%{
+        color:rgb(22, 198, 204);
+    }
+    50%{
+        color:blueviolet;
+    }
+    100%{
+        color:blue;
+    }
+}
